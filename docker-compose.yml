@@ -1,0 +1,5 @@
+version: '2'
+services:
+  failover:
+    build: ./src
+    env_file: .env
